@@ -14,7 +14,7 @@ const SignUp = ({ signUpStart }) => {
     email: '',
     password: '',
     confirmPassword: ''
-  })
+  });
 
   const { displayName, email, password, confirmPassword } = userCredentials;
 
@@ -76,7 +76,7 @@ const SignUp = ({ signUpStart }) => {
       </form>
     </SignUpContainer>
   );
-}
+};
 
 const mapDispatchToProps = dispatch => ({
   signUpStart: userCredentials => dispatch(signUpStart(userCredentials))

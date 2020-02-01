@@ -25,7 +25,7 @@ const ShopPage = ({ fetchCollectionsStart, match }) => {
       />
     </div>
   );
-}
+};
 
 const mapDispatchToProps = dispatch => ({
   fetchCollectionsStart: () => dispatch(fetchCollectionsStart())
